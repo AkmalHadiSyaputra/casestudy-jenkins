@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    IMAGE = "AkmalHadiSyaputra/demo-app"
+    IMAGE = "akmalhadisyaputra/demo-app"
     TAG = "latest"
     DOCKER_CRED = "docker-hub"
     KUBECONFIG_CRED = "kubeconfig-dev"
