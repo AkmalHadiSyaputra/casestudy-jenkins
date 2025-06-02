@@ -1,4 +1,4 @@
 image:
-  repository: AkmalHadiSyaputra/demo-app
+  repository: akmalhadisyaputra/demo-app
   tag: latest
 replicaCount: 1
