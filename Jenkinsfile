@@ -11,6 +11,12 @@ pipeline {
   }
 
   stages {
+    stage('Clean Workspace') {
+      steps {
+        cleanWs()
+      }
+    }
+
     stage('Checkout Source Code') {
       steps {
         git url: 'https://github.com/AkmalHadiSyaputra/casestudy-jenkins.git', branch: 'main'
@@ -71,3 +77,4 @@ pipeline {
     }
   }
 }
+
